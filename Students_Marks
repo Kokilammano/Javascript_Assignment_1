@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var student_id=prompt("Enter the student id:");
+        var name=prompt("Enter the name:");
+        var mark1=parseInt(prompt("Enter the first mark:"));
+        var mark2=parseInt(prompt("Enter the second mark:"));
+        var mark3=parseInt(prompt("Enter the third mark:"));
+        var mark4=parseInt(prompt("Enter the fourth mark:"));
+        var mark5=parseInt(prompt("Enter the fifth mark:"));
+        var mark6=parseInt(prompt("Enter the sixth mark:"));
+        var total=mark1+mark2+mark3+mark4+mark5+mark6;
+        var average=total/6;
+        document.write("Student id: " +student_id +"<br>");
+        document.write("Student name: " +name +"<br>");
+        document.write("First mark: " +mark1 +"<br>");
+        document.write("Second mark: " +mark2 +"<br>");
+        document.write("Third mark: " +mark3 +"<br>");
+        document.write("Fourth mark: " +mark4 +"<br>");
+        document.write("Fifth mark: " +mark5 +"<br>");
+        document.write("Sixth mark: " +mark6 +"<br>");
+        document.write("Total: " +total +"<br>");
+        document.write("Average: " +average +"<br>");
+    </script>
+</body>
+</html>
