@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var employee_id=prompt("Enter Employee Id:");
+        var employee_name=prompt("Enter Employee Name:");
+        var basic_salary=parseInt(prompt("Enter Basic Salary:"));
+        var hra=(2*basic_salary)/100;
+        var pf=(3*basic_salary)/100;
+        var ta=(1*basic_salary)/100;
+        var esi=(2.5*basic_salary)/100;
+        var gross_salary=basic_salary+hra+pf+esi+ta;
+        var net_pay=gross_salary-pf;
+        document.write("Salary Break Up Application <br>");
+        document.write("================================================ <br>");
+        document.write("Employ Id       : " +employee_id +"<br>");
+        document.write("Employ Name       : " +employee_name +"<br>");
+        document.write("Basic Salary       : " +basic_salary +"<br>");
+        document.write("HRA       : " +hra +"<br>");
+        document.write("PF       : " +pf +"<br>");
+        document.write("TA       : " +ta +"<br>");
+        document.write("ESI      : " +esi +"<br>");
+        document.write("Gross Pay       : " +gross_salary +"<br>");
+        document.write("Net Pay       : " +net_pay);   
+    </script>
+</body>
+</html>
